@@ -1,0 +1,25 @@
+owner@DESKTOP-JJ08SNR MINGW64 /c/dev/src/tera/git_challenge
+$ git init
+Initialized empty Git repository in C:/dev/src/tera/git_challenge/.git/
+
+owner@DESKTOP-JJ08SNR MINGW64 /c/dev/src/tera/git_challenge (main)
+$ git add .
+
+owner@DESKTOP-JJ08SNR MINGW64 /c/dev/src/tera/git_challenge (main)
+$ git commit -m "hello_world.txtを追加"
+[main (root-commit) d327c62] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+owner@DESKTOP-JJ08SNR MINGW64 /c/dev/src/tera/git_challenge (main)
+$ git add .
+
+owner@DESKTOP-JJ08SNR MINGW64 /c/dev/src/tera/git_challenge (main)
+$ git commit -m "日本語訳を追記"
+[main 293fe36] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+owner@DESKTOP-JJ08SNR MINGW64 /c/dev/src/tera/git_challenge (main)
+$ git log --oneline
+293fe36 (HEAD -> main) 日本語訳を追記
+d327c62 hello_world.txtを追加
